@@ -45,21 +45,21 @@ function CMain(oData) {
         Howler.mute(!s_bAudioActive);
         s_aSoundsInfo = new Array();
         s_aSoundsInfo.push({
-            path: './page/chess/sounds/',
+            path: 'https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sounds/',
             filename: 'game_over',
             loop: false,
             volume: 1,
             ingamename: 'game_over'
         });
         s_aSoundsInfo.push({
-            path: './page/chess/sounds/',
+            path: 'https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sounds/',
             filename: 'click',
             loop: false,
             volume: 1,
             ingamename: 'click'
         });
         s_aSoundsInfo.push({
-            path: './page/chess/sounds/',
+            path: 'https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sounds/',
             filename: 'win',
             loop: false,
             volume: 1,
@@ -106,48 +106,48 @@ function CMain(oData) {
     };
     this._loadImages = function() {
         s_oSpriteLibrary.init(this._onImagesLoaded, this._onAllImagesLoaded, this);
-        s_oSpriteLibrary.addSprite("but_play", "./page/chess/sprites/but_play.png");
-        s_oSpriteLibrary.addSprite("msg_box", "./page/chess/sprites/msg_box.png");
-        s_oSpriteLibrary.addSprite("bg_menu", "./page/chess/sprites/bg_menu.jpg");
-        s_oSpriteLibrary.addSprite("bg_mod_menu", "./page/chess/sprites/bg_mod_menu.jpg");
-        s_oSpriteLibrary.addSprite("bg_game", "./page/chess/sprites/bg_game.jpg");
-        s_oSpriteLibrary.addSprite("but_credits", "./page/chess/sprites/but_credits.png");
-        s_oSpriteLibrary.addSprite("but_fullscreen", "./page/chess/sprites/but_fullscreen.png");
-        s_oSpriteLibrary.addSprite("logo_ctl", "./page/chess/sprites/logo_ctl.png");
-        s_oSpriteLibrary.addSprite("but_vs_man", "./page/chess/sprites/vs_man_panel.png");
-        s_oSpriteLibrary.addSprite("but_vs_pc", "./page/chess/sprites/vs_pc_panel.png");
-        s_oSpriteLibrary.addSprite("message", "./page/chess/sprites/message.png");
-        s_oSpriteLibrary.addSprite("but_home", "./page/chess/sprites/but_home.png");
-        s_oSpriteLibrary.addSprite("but_show", "./page/chess/sprites/but_show.png");
-        s_oSpriteLibrary.addSprite("but_exit", "./page/chess/sprites/but_exit.png");
-        s_oSpriteLibrary.addSprite("audio_icon", "./page/chess/sprites/audio_icon.png");
-        s_oSpriteLibrary.addSprite("but_settings", "./page/chess/sprites/but_settings.png");
-        s_oSpriteLibrary.addSprite("board8", "./page/chess/sprites/grid_8.png");
-        s_oSpriteLibrary.addSprite("threat", "./page/chess/sprites/threat.png");
-        s_oSpriteLibrary.addSprite("highlight", "./page/chess/sprites/highlight.png");
-        s_oSpriteLibrary.addSprite("bg_turn", "./page/chess/sprites/player_panel.png");
-        s_oSpriteLibrary.addSprite("audio_icon_big", "./page/chess/sprites/audio_icon_big.png");
-        s_oSpriteLibrary.addSprite("black_bishop", "./page/chess/sprites/pieces/black_bishop.png");
-        s_oSpriteLibrary.addSprite("black_king", "./page/chess/sprites/pieces/black_king.png");
-        s_oSpriteLibrary.addSprite("black_knight", "./page/chess/sprites/pieces/black_knight.png");
-        s_oSpriteLibrary.addSprite("black_pawn", "./page/chess/sprites/pieces/black_pawn.png");
-        s_oSpriteLibrary.addSprite("black_queen", "./page/chess/sprites/pieces/black_queen.png");
-        s_oSpriteLibrary.addSprite("black_rook", "./page/chess/sprites/pieces/black_rook.png");
-        s_oSpriteLibrary.addSprite("white_bishop", "./page/chess/sprites/pieces/white_bishop.png");
-        s_oSpriteLibrary.addSprite("white_king", "./page/chess/sprites/pieces/white_king.png");
-        s_oSpriteLibrary.addSprite("white_knight", "./page/chess/sprites/pieces/white_knight.png");
-        s_oSpriteLibrary.addSprite("white_pawn", "./page/chess/sprites/pieces/white_pawn.png");
-        s_oSpriteLibrary.addSprite("white_queen", "./page/chess/sprites/pieces/white_queen.png");
-        s_oSpriteLibrary.addSprite("white_rook", "./page/chess/sprites/pieces/white_rook.png");
-        s_oSpriteLibrary.addSprite("white_king_marker", "./page/chess/sprites/white_king_marker.png");
-        s_oSpriteLibrary.addSprite("black_king_marker", "./page/chess/sprites/black_king_marker.png");
-        s_oSpriteLibrary.addSprite("score_panel", "./page/chess/sprites/score_panel.png");
-        s_oSpriteLibrary.addSprite("toggle_easy", "./page/chess/sprites/toggle_easy.png");
-        s_oSpriteLibrary.addSprite("toggle_medium", "./page/chess/sprites/toggle_medium.png");
-        s_oSpriteLibrary.addSprite("toggle_hard", "./page/chess/sprites/toggle_hard.png");
-        s_oSpriteLibrary.addSprite("but_yes", "./page/chess/sprites/but_yes.png");
-        s_oSpriteLibrary.addSprite("but_no", "./page/chess/sprites/but_no.png");
-        s_oSpriteLibrary.addSprite("but_restart", "./page/chess/sprites/but_restart.png");
+        s_oSpriteLibrary.addSprite("but_play", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/but_play.png");
+        s_oSpriteLibrary.addSprite("msg_box", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/msg_box.png");
+        s_oSpriteLibrary.addSprite("bg_menu", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/bg_menu.jpg");
+        s_oSpriteLibrary.addSprite("bg_mod_menu", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/bg_mod_menu.jpg");
+        s_oSpriteLibrary.addSprite("bg_game", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/bg_game.jpg");
+        s_oSpriteLibrary.addSprite("but_credits", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/but_credits.png");
+        s_oSpriteLibrary.addSprite("but_fullscreen", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/but_fullscreen.png");
+        s_oSpriteLibrary.addSprite("logo_ctl", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/logo_ctl.png");
+        s_oSpriteLibrary.addSprite("but_vs_man", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/vs_man_panel.png");
+        s_oSpriteLibrary.addSprite("but_vs_pc", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/vs_pc_panel.png");
+        s_oSpriteLibrary.addSprite("message", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/message.png");
+        s_oSpriteLibrary.addSprite("but_home", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/but_home.png");
+        s_oSpriteLibrary.addSprite("but_show", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/but_show.png");
+        s_oSpriteLibrary.addSprite("but_exit", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/but_exit.png");
+        s_oSpriteLibrary.addSprite("audio_icon", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/audio_icon.png");
+        s_oSpriteLibrary.addSprite("but_settings", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/but_settings.png");
+        s_oSpriteLibrary.addSprite("board8", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/grid_8.png");
+        s_oSpriteLibrary.addSprite("threat", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/threat.png");
+        s_oSpriteLibrary.addSprite("highlight", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/highlight.png");
+        s_oSpriteLibrary.addSprite("bg_turn", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/player_panel.png");
+        s_oSpriteLibrary.addSprite("audio_icon_big", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/audio_icon_big.png");
+        s_oSpriteLibrary.addSprite("black_bishop", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/black_bishop.png");
+        s_oSpriteLibrary.addSprite("black_king", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/black_king.png");
+        s_oSpriteLibrary.addSprite("black_knight", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/black_knight.png");
+        s_oSpriteLibrary.addSprite("black_pawn", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/black_pawn.png");
+        s_oSpriteLibrary.addSprite("black_queen", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/black_queen.png");
+        s_oSpriteLibrary.addSprite("black_rook", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/black_rook.png");
+        s_oSpriteLibrary.addSprite("white_bishop", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/white_bishop.png");
+        s_oSpriteLibrary.addSprite("white_king", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/white_king.png");
+        s_oSpriteLibrary.addSprite("white_knight", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/white_knight.png");
+        s_oSpriteLibrary.addSprite("white_pawn", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/white_pawn.png");
+        s_oSpriteLibrary.addSprite("white_queen", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/white_queen.png");
+        s_oSpriteLibrary.addSprite("white_rook", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/pieces/white_rook.png");
+        s_oSpriteLibrary.addSprite("white_king_marker", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/white_king_marker.png");
+        s_oSpriteLibrary.addSprite("black_king_marker", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/black_king_marker.png");
+        s_oSpriteLibrary.addSprite("score_panel", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/score_panel.png");
+        s_oSpriteLibrary.addSprite("toggle_easy", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/toggle_easy.png");
+        s_oSpriteLibrary.addSprite("toggle_medium", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/toggle_medium.png");
+        s_oSpriteLibrary.addSprite("toggle_hard", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/toggle_hard.png");
+        s_oSpriteLibrary.addSprite("but_yes", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/but_yes.png");
+        s_oSpriteLibrary.addSprite("but_no", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/but_no.png");
+        s_oSpriteLibrary.addSprite("but_restart", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/but_restart.png");
         RESOURCE_TO_LOAD += s_oSpriteLibrary.getNumSprites();
         s_oSpriteLibrary.loadSprites();
     };
