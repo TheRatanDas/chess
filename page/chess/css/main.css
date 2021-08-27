@@ -6,7 +6,7 @@ body {
     background-color: #000;
     background-repeat: repeat-x;
     background-position: top;
-    background-image: url(../page/chess/sprites/bg_tile.jpg)
+    background-image: url(https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/bg_tile.jpg)
 }
 
 *,
