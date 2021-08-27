@@ -11,9 +11,9 @@ function CPreloader() {
     var _oContainer;
     this._init = function() {
         s_oSpriteLibrary.init(this._onImagesLoaded, this._onAllImagesLoaded, this);
-        s_oSpriteLibrary.addSprite("progress_bar", "./page/chess/sprites/progress_bar.png");
-        s_oSpriteLibrary.addSprite("200x200", "./page/chess/sprites/200x200.jpg");
-        s_oSpriteLibrary.addSprite("but_start", "./page/chess/sprites/but_start.png");
+        s_oSpriteLibrary.addSprite("progress_bar", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/progress_bar.png");
+        s_oSpriteLibrary.addSprite("200x200", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/page/chess/sprites/200x200.jpg");
+        s_oSpriteLibrary.addSprite("but_start", "https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/page/chess/sprites/but_start.png");
         s_oSpriteLibrary.loadSprites();
         _oContainer = new createjs.Container();
         s_oStage.addChild(_oContainer);
