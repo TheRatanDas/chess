@@ -44,7 +44,7 @@ body {
 .xxx-ios-fullscreen-swipe {
     width: 30%;
     height: 30%;
-    background-image: url(../page/chess/sprites/swipe.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/TheRatanDas/chess@main/page/chess/sprites/swipe.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
